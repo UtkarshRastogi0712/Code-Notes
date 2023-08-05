@@ -30,9 +30,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "01f8b74e66dcd672",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL in FastAPI.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "352786218bf3ab62",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fastapi.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fastapi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Fastapi.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,12 +183,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d07e747866ea3b15",
+  "active": "352786218bf3ab62",
   "lastOpenFiles": [
-    "Fastapi Packages.md",
-    "Git cheatsheet.md",
-    "SQL in FastAPI.md",
     "Fastapi.md",
+    "Pandas.md",
+    "SQL in FastAPI.md",
+    "Git cheatsheet.md",
+    "Date and Time in Python.md",
+    "Date Time in Python.md",
+    "Fastapi Packages.md",
     "Code-Notes",
     "().md"
   ]

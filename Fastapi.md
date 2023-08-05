@@ -39,7 +39,9 @@ if __name__ == "__main__":
 
     uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True) #Reload app automatically and run with python main.py
 ```
-----
+_________________________
+
+## Database
 #### SQL Database.py boilerplate:
 
 ```python
@@ -57,3 +59,9 @@ Base = declarative_base() #exports DB Base class
 ```
 
 [Detailed SQL operations](SQL%20in%20FastAPI)
+______________
+
+### Other essential features and libraries:
+
+[Date Time](Date%20and%20Time%20in%20Python.md)
+[Pandas](Pandas.md)
