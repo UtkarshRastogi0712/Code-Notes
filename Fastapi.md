@@ -1,0 +1,55 @@
+## Quick setup steps
+
+#### Virtual environment:
+
+```shell
+pipenv --python 3.9 #create project
+
+pipenv install #install dependencies 
+
+pipenv shell #start virtual env
+
+pipenv install -r requirements.txt #install dependencies from requirements.txt
+```
+
+[List of usual packages](Fastapi%20Packages.md)
+[Git setup](Git%20cheatsheet.md)
+_____
+#### App.py boilerplate:
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+```
+____
+#### Main.py boilerplate:
+
+```python
+import uvicorn
+
+if __name__ == "__main__":
+
+    uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)
+```
+----
+#### SQL Database.py boilerplate:
+
+```python
+from sqlalchemy import create_engine
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+SQLALCHEMY_DATABASE_URL = "mysql+pymysql//root@localhost:3306/db" #database URL, for sqlite its current directory
+
+engine = create_engine(SQLALCHEMY_DATABASE_URL) #connect_args only for sqlite and make sure no cross thread info sharing
+
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine) #db instance
+conn = engine.connect()
+Base = declarative_base() #exports DB Base class
+```
