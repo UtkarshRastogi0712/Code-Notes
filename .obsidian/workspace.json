@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git cheatsheet.md",
+                "file": "Fastapi.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git cheatsheet.md",
+                "file": "Fastapi.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git cheatsheet.md",
+                "file": "Fastapi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +138,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git cheatsheet.md"
+                "file": "Fastapi.md"
               }
             }
+          },
+          {
+            "id": "7c4e6199ada0bc08",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -158,12 +167,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d2cd15def83a572",
+  "active": "d07e747866ea3b15",
   "lastOpenFiles": [
-    "Code-Notes",
     "Fastapi Packages.md",
-    "Fastapi.md",
     "Git cheatsheet.md",
+    "SQL in FastAPI.md",
+    "Fastapi.md",
+    "Code-Notes",
     "().md"
   ]
 }

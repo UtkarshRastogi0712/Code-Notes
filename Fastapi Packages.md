@@ -15,4 +15,6 @@ passlib[bcrypt] #password hashing
 pymysql #python mysql library
 sqlalchemy #sql toolkit orm
 strawberry-graphql[fastapi] #graphql for fastapi
+pandas #read csv data
+pytz #timezone data
 ```

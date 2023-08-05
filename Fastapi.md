@@ -10,6 +10,8 @@ pipenv install #install dependencies
 pipenv shell #start virtual env
 
 pipenv install -r requirements.txt #install dependencies from requirements.txt
+
+python main.py #To run FastAPI server
 ```
 
 [List of usual packages](Fastapi%20Packages.md)
@@ -35,7 +37,7 @@ import uvicorn
 
 if __name__ == "__main__":
 
-    uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True) #Reload app automatically and run with python main.py
 ```
 ----
 #### SQL Database.py boilerplate:
@@ -53,3 +55,5 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine) #db 
 conn = engine.connect()
 Base = declarative_base() #exports DB Base class
 ```
+
+[Detailed SQL operations](SQL%20in%20FastAPI)
