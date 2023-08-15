@@ -59,9 +59,23 @@ Base = declarative_base() #exports DB Base class
 ```
 
 [Detailed SQL operations](SQL%20in%20FastAPI)
+
+#### MongoDB Database.py boilerplate:
+```python
+from pymongo import MongoClient
+
+CONNECTION_STRING = <mongoURL>
+client = MongoClient(CONNECTION_STRING)
+db = client['db_name']
+collection = db['db_collection']
+```
+
+[Detailed MongoDB operations](MongoDB%20in%20FastAPI)
 ______________
 
 ### Other essential features and libraries:
 
+[Pydantic](Pydantic%20Models)
+[Dotenv](Dotenv)
 [Date Time](Date%20and%20Time%20in%20Python.md)
 [Pandas](Pandas.md)

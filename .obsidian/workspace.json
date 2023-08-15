@@ -13,46 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fastapi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d07e747866ea3b15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fastapi.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01f8b74e66dcd672",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "SQL in FastAPI.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "352786218bf3ab62",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -118,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SQL in FastAPI.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SQL in FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SQL in FastAPI.md"
+              }
             }
           },
           {
@@ -183,15 +154,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "352786218bf3ab62",
+  "active": "e0af4edf7d51f217",
   "lastOpenFiles": [
-    "Fastapi.md",
+    "Pydantic Models.md",
     "Pandas.md",
-    "SQL in FastAPI.md",
     "Git cheatsheet.md",
-    "Date and Time in Python.md",
-    "Date Time in Python.md",
     "Fastapi Packages.md",
+    "Fastapi.md",
+    "Dotenv.md",
+    "Date and Time in Python.md",
+    "SQL in FastAPI.md",
+    "MongoDB in FastAPI.md",
+    "Date Time in Python.md",
     "Code-Notes",
     "().md"
   ]
