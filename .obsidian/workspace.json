@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL in FastAPI.md",
-                "mode": "preview",
+                "file": "OAuth2.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL in FastAPI.md",
+                "file": "OAuth2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL in FastAPI.md",
+                "file": "OAuth2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL in FastAPI.md"
+                "file": "OAuth2.md"
               }
             }
           },
@@ -142,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,16 +156,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0af4edf7d51f217",
+  "active": "7d2cd15def83a572",
   "lastOpenFiles": [
+    "Fastapi.md",
+    "OAuth2.md",
+    "SQL in FastAPI.md",
     "Pydantic Models.md",
     "Pandas.md",
     "Git cheatsheet.md",
     "Fastapi Packages.md",
-    "Fastapi.md",
     "Dotenv.md",
     "Date and Time in Python.md",
-    "SQL in FastAPI.md",
     "MongoDB in FastAPI.md",
     "Date Time in Python.md",
     "Code-Notes",

@@ -75,6 +75,7 @@ ______________
 
 ### Other essential features and libraries:
 
+[OAuth2](OAuth2)
 [Pydantic](Pydantic%20Models)
 [Dotenv](Dotenv)
 [Date Time](Date%20and%20Time%20in%20Python.md)
