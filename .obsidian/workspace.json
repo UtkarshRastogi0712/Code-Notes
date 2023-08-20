@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fc2ad863bd300c52",
+        "id": "2cadb1bf5f963d3d",
         "type": "tabs",
         "children": [
           {
-            "id": "e0af4edf7d51f217",
+            "id": "0f6df0f337b010ec",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Interview Preparation Guide.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Interview Preparation Guide.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Interview Preparation Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Interview Preparation Guide.md"
+              }
             }
           },
           {
@@ -148,9 +155,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0af4edf7d51f217",
+  "active": "0f6df0f337b010ec",
   "lastOpenFiles": [
+    "Interview Preparation Guide.md",
+    "OOPS.md",
     "OAuth2.md",
+    "Untitled.canvas",
+    "Data Structures and Algorithms.md",
+    "Data Structures.md",
     "Fastapi.md",
     "SQL in FastAPI.md",
     "Pydantic Models.md",
