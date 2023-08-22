@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Preparation Guide.md",
+                "file": "SQL.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Preparation Guide.md",
+                "file": "SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Preparation Guide.md",
+                "file": "SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Preparation Guide.md"
+                "file": "SQL.md"
               }
             }
           },
@@ -158,20 +159,21 @@
   "active": "0f6df0f337b010ec",
   "lastOpenFiles": [
     "Interview Preparation Guide.md",
-    "OOPS.md",
-    "OAuth2.md",
-    "Untitled.canvas",
+    "SQL.md",
     "Data Structures and Algorithms.md",
-    "Data Structures.md",
     "Fastapi.md",
+    "OOPS.md",
     "SQL in FastAPI.md",
     "Pydantic Models.md",
     "Pandas.md",
+    "OAuth2.md",
+    "MongoDB in FastAPI.md",
     "Git cheatsheet.md",
     "Fastapi Packages.md",
     "Dotenv.md",
     "Date and Time in Python.md",
-    "MongoDB in FastAPI.md",
+    "Untitled.canvas",
+    "Data Structures.md",
     "Date Time in Python.md",
     "Code-Notes",
     "().md"
