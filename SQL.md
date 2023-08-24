@@ -33,13 +33,71 @@ Two type of commands:
 
 ### Usecase:
 
-1) Creating a table:
+#### Creating a table:
 ```SQL
 CREATE TABLE IF NOT EXISTS <tablename> (index INT PRIMARY KEY,
 										name VARCHAR(60));
 ```
 
-2) Selecting data:
+#### Selecting data:
 ```SQL
-SELECT * FROM TABLE <tablename>
+SELECT * FROM <tablename>;
 ```
+
+#### Column Alias:
+```SQL
+SELECT name AS alias FROM <tablename>;
+```
+
+#### Join:
+```SQL
+SELECT one.col, two.col FROM one <modifier> JOIN two ON one.col = two.col;
+```
+> Modifier list:
+> - INNER
+> - FULL
+> - LEFT
+> - RIGHT
+> - CROSS
+> - NATURAL
+
+#### Order by:
+```SQL
+SELECT * FROM <tablename> ORDER BY <column> [DESC];
+```
+
+#### Filter:
+```SQL
+SELECT * FROM <tablename> where <column> IS NOT NULL;
+```
+> Other filter:
+> - BETWEEN <> AND <>;
+> - LIKE "%str_";
+> - IN (<>,<>,<>,...);
+> - all logical relational operators;
+
+#### Aggregate:
+```SQL
+--Type one
+SELECT COUNT(<column name>) FROM <tablename>;
+--Type Two
+SELECT COUNT(DISTINCT <column name>) FROM <tablename> GROUP BY <column name> HAVING <expression>;
+```
+> Aggregate operations:
+> - AVG
+> - COUNT
+> - MAX
+> - MIN
+> - SUM
+
+#### Nested Queries:
+```SQL
+SELECT COUNT(*) FROM <tablename> WHERE <variable> IN (
+	SELECT AVG(<column name>) FROM <tablename> GROUP BY <column name>
+);
+```
+> Nested return type:
+> - =
+> - IN
+> - EXISTS
+> - relational operations
