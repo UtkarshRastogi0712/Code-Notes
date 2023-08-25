@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c9997c3bf0db65c1",
+        "id": "cd9f844654261596",
         "type": "tabs",
         "children": [
           {
-            "id": "965b67105bdf6205",
+            "id": "86419ef9e0f03361",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OAuth2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OAuth2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OAuth2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OAuth2.md"
+              }
             }
           },
           {
@@ -147,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "965b67105bdf6205",
+  "active": "86419ef9e0f03361",
   "lastOpenFiles": [
     "SQL.md",
     "SQL in FastAPI.md",
