@@ -21,6 +21,12 @@ git reset --soft HEAD~1 #Reset to staging area
 git restore --staged <File> #unstage
 ```
 ___________
+#### Create and change branch:
+```Shell
+git branch <name> #Create branch
+git checkout <name> #Switch branch
+git merge <main> #Merge remote commits from a branch
+```
 #### Pull branch without losing uncommitted changes:
 ```shell
 git stash 
