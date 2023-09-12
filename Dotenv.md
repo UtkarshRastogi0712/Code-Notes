@@ -9,8 +9,11 @@ VAR_NAME = <value> #raw value without any quotes
 #### Load .env files:
 ```python
 from dotenv import load_dotenv
-import od
+import os
 
 load_dotenv()
 var = os.getenv("VAR_NAME")
+```
+```Javascript
+var = process.env.VAR_NAME;
 ```
