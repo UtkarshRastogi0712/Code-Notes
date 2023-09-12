@@ -143,3 +143,17 @@ async def get_current_active_user(current_user: UserSchema = Depends(get_current
         raise HTTPException(status_code=400, detail="Inactive user")
     return current_user
 ```
+
+### Required imports:
+```python
+from fastapi import Depends, HTTPException, status
+from fastapi.security import OAuth2PasswordBearer
+from server.models.user import UserSchema, Token, TokenData, ErrorResponseModel
+from datetime import datetime, timedelta
+from typing import Union
+from jose import JWTError, jwt
+from passlib.context import CryptContext
+import server.user_database as user_db
+from dotenv import load_dotenv
+import os
+```

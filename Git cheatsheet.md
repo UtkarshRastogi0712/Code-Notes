@@ -28,3 +28,8 @@ git pull <branch>
 git stash pop
 ```
 ___________
+#### Avoiding merge conflicts:
+```shell
+git pull --rebase #Merge existing locally committed changes with remote changes
+git pull --rebase=false #Do not merge local changes while pulling
+```

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAuth2.md",
-                "mode": "preview",
+                "file": "Operating System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58fd864009b2be50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git cheatsheet.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAuth2.md",
+                "file": "Git cheatsheet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OAuth2.md",
+                "file": "Git cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OAuth2.md"
+                "file": "Git cheatsheet.md"
               }
             }
           },
@@ -156,17 +168,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86419ef9e0f03361",
+  "active": "58fd864009b2be50",
   "lastOpenFiles": [
-    "SQL.md",
-    "SQL in FastAPI.md",
     "Interview Preparation Guide.md",
-    "Data Structures and Algorithms.md",
-    "Fastapi.md",
+    "Operating System.md",
     "OOPS.md",
+    "Fastapi.md",
+    "SQL.md",
+    "OAuth2.md",
+    "SQL in FastAPI.md",
+    "Data Structures and Algorithms.md",
     "Pydantic Models.md",
     "Pandas.md",
-    "OAuth2.md",
     "MongoDB in FastAPI.md",
     "Git cheatsheet.md",
     "Fastapi Packages.md",
