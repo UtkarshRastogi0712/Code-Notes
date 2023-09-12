@@ -70,7 +70,7 @@ db = client['db_name']
 collection = db['db_collection']
 ```
 
-[Detailed MongoDB operations](MongoDB%20in%20FastAPI)
+[Detailed MongoDB operations](MongoDB%20with%20mongoose.md)
 ______________
 
 ### Other essential features and libraries:
