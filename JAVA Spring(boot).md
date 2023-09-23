@@ -1,6 +1,6 @@
 ### Introduction:
 
-JAVA Spring is a framework used to build developing Java Enterprise Edition based applications, webapps, [servlets](Servlets) and microservices. Java Spring Boot is a project under Java Spring that speeds up the process of building JAVA Spring based applications by using _Auto Configurations, Dependency management and reducing Boilerplate code_. Key aspects:
+JAVA Spring is a framework used to build developing Java Enterprise Edition based applications, webapps, [servlets](Servlets), [REST APIs](RESTful%20APIs) and microservices. Java Spring Boot is a project under Java Spring that speeds up the process of building JAVA Spring based applications by using _Auto Configurations, Dependency management and reducing Boilerplate code_. Key aspects:
 
 - __Dependency Injection:__ Loosely couple required _beans (objects)_ into other classes or objects to enable _easier testing and maintainability_ by reducing tight coupling of code. Dependencies can easily be created in preconfigured ways and injected to test the required operation without having to test a whole dependency tree for the same. 
 - __MVC based architecture:__ Spring Framework uses a _Model - View - Controller_ based web module to build web applications by providing a structures approach to handling requests and RESTful API's.

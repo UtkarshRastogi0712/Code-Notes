@@ -1,3 +1,4 @@
+FastAPI is a Python Framework for building fast, type-safe, auto-documentation generating APIs, most suited for [RESTful APIs](RESTful%20APIs).
 ## Quick setup steps
 
 #### Virtual environment:

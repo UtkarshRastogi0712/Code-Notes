@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "HTTP cheatsheet.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "HTTP cheatsheet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "HTTP cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "HTTP cheatsheet.md"
               }
             }
           },
@@ -168,9 +167,13 @@
   },
   "active": "cd9eff63f39982ae",
   "lastOpenFiles": [
-    "Git cheatsheet.md",
+    "RESTful APIs.md",
+    "HTTP cheatsheet.md",
     "JAVA Spring(boot).md",
     "Fastapi.md",
+    "Fastapi Packages.md",
+    "README.md",
+    "Git cheatsheet.md",
     "Servlets.md",
     "SQL.md",
     "OOPS.md",
@@ -180,10 +183,8 @@
     "Date and Time in Python.md",
     "OAuth2.md",
     "FaceIO.md",
-    "README.md",
     "MongoDB with mongoose.md",
     "Data Structures and Algorithms.md",
-    "Fastapi Packages.md",
     "SQL in FastAPI.md",
     "Pydantic Models.md",
     "Interview Preparation Guide.md",
