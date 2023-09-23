@@ -11,24 +11,15 @@
             "id": "cd9eff63f39982ae",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "91292b973a5b002e",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "MongoDB with mongoose.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -94,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MongoDB with mongoose.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MongoDB with mongoose.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MongoDB with mongoose.md"
+                "file": "README.md"
               }
             }
           },
@@ -174,25 +166,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91292b973a5b002e",
+  "active": "cd9eff63f39982ae",
   "lastOpenFiles": [
-    "MongoDB with mongoose.md",
-    "Operating System.md",
-    "README.md",
-    "FaceIO.md",
-    "Data Structures and Algorithms.md",
-    "OAuth2.md",
-    "Dotenv.md",
+    "Git cheatsheet.md",
+    "JAVA Spring(boot).md",
     "Fastapi.md",
-    "Fastapi Packages.md",
-    "Date and Time in Python.md",
+    "Servlets.md",
     "SQL.md",
+    "OOPS.md",
+    "Operating System.md",
+    "Dotenv.md",
+    "Pandas.md",
+    "Date and Time in Python.md",
+    "OAuth2.md",
+    "FaceIO.md",
+    "README.md",
+    "MongoDB with mongoose.md",
+    "Data Structures and Algorithms.md",
+    "Fastapi Packages.md",
     "SQL in FastAPI.md",
     "Pydantic Models.md",
-    "Pandas.md",
-    "OOPS.md",
     "Interview Preparation Guide.md",
-    "Git cheatsheet.md",
     "Untitled.canvas",
     "Data Structures.md",
     "Date Time in Python.md",
