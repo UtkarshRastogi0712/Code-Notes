@@ -8,37 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd9eff63f39982ae",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "d7185a1d2a609aa7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
-          },
-          {
             "id": "431b8ad8492eed28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MongoDB with mongoose.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -185,17 +167,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "431b8ad8492eed28",
+  "active": "7d2cd15def83a572",
   "lastOpenFiles": [
+    "RESTful APIs.md",
     "RestAPI in JS.md",
+    "JAVA Spring(boot).md",
+    "README.md",
     "MongoDB with mongoose.md",
     "2023-09-24.md",
     "HTTP cheatsheet.md",
-    "RESTful APIs.md",
-    "JAVA Spring(boot).md",
     "Fastapi.md",
     "Fastapi Packages.md",
-    "README.md",
     "Git cheatsheet.md",
     "Servlets.md",
     "SQL.md",

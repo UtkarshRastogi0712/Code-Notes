@@ -1,5 +1,5 @@
 REST API stands for __Representational State Transfer Application Programming Interface__.
-It is an architecture style used to designed web applications and services that adheres to a set of constraints or principles. It is not a protocol, merely a set of guidelines for building scalable, stateless APIs.
+It is an architecture style used to designed web applications and services that adheres to a set of constraints or principles. It is not a protocol, merely a set of guidelines for building scalable, stateless APIs. They can be build using various popular frameworks namely [nodeJS](RestAPI%20in%20JS) and [FastAPI](FastAPI) and [Java Spring](JAVA%20Spring(boot)).
 
 ### Key principles of REST APIs:
 - __Statelessness__ : Each HTTP request is independent and can process the request without reliance on any previous request or session stored on the server. Each HTTP request must contain all the information necessary to process it.

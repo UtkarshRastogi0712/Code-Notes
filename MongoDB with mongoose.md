@@ -1,5 +1,37 @@
 
 Mongoose is a simple framework to interface with MongoDB with a similar implementation for both Javascript/Typescript and Python.
+
+### Connecting to DB:
+```javascript
+const mongoose = require("mongoose");
+const MONGO_URI = process.env.MONGO_URI;
+
+mongoose
+  .connect(MONGO_URI, {
+    dbName: "lynchpin",
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log("MongoDB connected..."))
+  .catch((err) => console.log(err.message));
+
+mongoose.connection.on("connected", () => {
+  console.log("Mongoose connected to DB");
+});
+
+mongoose.connection.on("error", (err) => {
+  console.log(err.message);
+});
+
+mongoose.connection.on("disconnected", () => {
+  console.log("Mongoose connection is disconnected");
+});
+
+process.on("SIGINT", async () => {
+  await mongoose.connection.close();
+  process.exit(0);
+});
+```
 ### Schema creation:
 ```typescript
 import mongoose, { Schema } from "mongoose";
@@ -34,7 +66,7 @@ const requestSchema: Schema = new Schema({
 
 export default mongoose.model("Request", requestSchema);
 ```
-### CRUD Routes boilerplate:
+### Services for CRUD Routes boilerplate:
 ```typescript
 import Request from "./request.schema";
 

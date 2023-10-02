@@ -3,5 +3,4 @@ This is an Obsidian Vault that I use as my second brain or a store-house of all 
 
 ### To Do:
 - [Operating System](Operating%20System)
-- [MongoDB with mongoose](MongoDB%20with%20mongoose.md)
 - [Data Structures and Algorithms](Data%20Structures%20and%20Algorithms)
