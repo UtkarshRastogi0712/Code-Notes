@@ -1,5 +1,8 @@
 [
   "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-code-block-enhancer"
+  "obsidian-code-block-enhancer",
+  "obsidian-kanban",
+  "omnisearch",
+  "obsidian-linter"
 ]
