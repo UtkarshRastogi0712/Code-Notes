@@ -53,14 +53,14 @@
       "query": "tag:#Concept",
       "color": {
         "a": 1,
-        "rgb": 9671604
+        "rgb": 10724306
       }
     },
     {
       "query": "tag:#Generic",
       "color": {
         "a": 1,
-        "rgb": 11783356
+        "rgb": 9349528
       }
     }
   ],
@@ -74,6 +74,6 @@
   "repelStrength": 16.2975778546713,
   "linkStrength": 1,
   "linkDistance": 190,
-  "scale": 0.6782512386020106,
+  "scale": 0.6427305088120945,
   "close": false
 }

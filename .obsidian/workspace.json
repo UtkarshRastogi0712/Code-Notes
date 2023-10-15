@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -160,6 +161,8 @@
   },
   "active": "f70ff9c8d725d94a",
   "lastOpenFiles": [
+    "JAVA Spring(boot).md",
+    "JDBC and SQL.md",
     "FaceIO.md",
     "RestAPI in JS.md",
     "Servlets.md",
@@ -179,14 +182,12 @@
     "README.md",
     "Pandas.md",
     "OAuth2.md",
-    "JAVA Spring(boot).md",
     "Fastapi Packages.md",
     "Fastapi.md",
     "Date and Time in Python.md",
     "Artificial Intelligence.md",
     "2023-09-24.md",
     "Untitled.canvas",
-    "Data Structures.md",
     "Code-Notes"
   ]
 }
