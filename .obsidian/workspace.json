@@ -8,15 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "431b8ad8492eed28",
+            "id": "f70ff9c8d725d94a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MongoDB with mongoose.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MongoDB with mongoose.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MongoDB with mongoose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MongoDB with mongoose.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,35 +158,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d2cd15def83a572",
+  "active": "f70ff9c8d725d94a",
   "lastOpenFiles": [
-    "RESTful APIs.md",
-    "RestAPI in JS.md",
-    "JAVA Spring(boot).md",
-    "README.md",
-    "MongoDB with mongoose.md",
-    "2023-09-24.md",
-    "HTTP cheatsheet.md",
-    "Fastapi.md",
-    "Fastapi Packages.md",
-    "Git cheatsheet.md",
-    "Servlets.md",
-    "SQL.md",
-    "OOPS.md",
-    "Operating System.md",
-    "Dotenv.md",
-    "Pandas.md",
-    "Date and Time in Python.md",
-    "OAuth2.md",
     "FaceIO.md",
-    "Data Structures and Algorithms.md",
-    "SQL in FastAPI.md",
-    "Pydantic Models.md",
+    "RestAPI in JS.md",
+    "Servlets.md",
+    "Git cheatsheet.md",
+    "Operating System.md",
+    "HTTP cheatsheet.md",
     "Interview Preparation Guide.md",
+    "RESTful APIs.md",
+    "OOPS.md",
+    "Data Structures and Algorithms.md",
+    "Dotenv.md",
+    "MongoDB with mongoose.md",
+    "Pydantic Models.md",
+    "SQL in FastAPI.md",
+    "SQL.md",
+    "Regression.md",
+    "README.md",
+    "Pandas.md",
+    "OAuth2.md",
+    "JAVA Spring(boot).md",
+    "Fastapi Packages.md",
+    "Fastapi.md",
+    "Date and Time in Python.md",
+    "Artificial Intelligence.md",
+    "2023-09-24.md",
     "Untitled.canvas",
     "Data Structures.md",
-    "Date Time in Python.md",
-    "Code-Notes",
-    "().md"
+    "Code-Notes"
   ]
 }

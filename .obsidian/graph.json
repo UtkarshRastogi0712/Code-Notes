@@ -6,7 +6,64 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#JS/TS",
+      "color": {
+        "a": 1,
+        "rgb": 14736466
+      }
+    },
+    {
+      "query": "tag:#Java",
+      "color": {
+        "a": 1,
+        "rgb": 7132468
+      }
+    },
+    {
+      "query": "tag:#AIML",
+      "color": {
+        "a": 1,
+        "rgb": 15545653
+      }
+    },
+    {
+      "query": "tag:#Python",
+      "color": {
+        "a": 1,
+        "rgb": 13193952
+      }
+    },
+    {
+      "query": "tag:#SQL  ",
+      "color": {
+        "a": 1,
+        "rgb": 14715730
+      }
+    },
+    {
+      "query": "tag:#Mongo",
+      "color": {
+        "a": 1,
+        "rgb": 5431511
+      }
+    },
+    {
+      "query": "tag:#Concept",
+      "color": {
+        "a": 1,
+        "rgb": 9671604
+      }
+    },
+    {
+      "query": "tag:#Generic",
+      "color": {
+        "a": 1,
+        "rgb": 11783356
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
@@ -18,5 +75,5 @@
   "linkStrength": 1,
   "linkDistance": 190,
   "scale": 0.6782512386020106,
-  "close": true
+  "close": false
 }

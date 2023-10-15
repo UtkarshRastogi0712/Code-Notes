@@ -1,4 +1,4 @@
-
+#JS/TS #Mongo
 Mongoose is a simple framework to interface with MongoDB with a similar implementation for both Javascript/Typescript and Python.
 
 ### Connecting to DB:

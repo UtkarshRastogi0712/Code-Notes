@@ -1,3 +1,4 @@
+#Generic 
 #### Standard initialisation:
 ```shell
 git init #Create .git 

@@ -1,3 +1,4 @@
+#Python #SQL
 Related: [SQL](SQL) queries and statements
 #### Create all the tables (app.py):
 

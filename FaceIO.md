@@ -1,3 +1,4 @@
+#JS/TS
 FaceIO is a face recognition package on NPM that can be used to quicky implement a face identification in javascript backends.
 
 ### Install:

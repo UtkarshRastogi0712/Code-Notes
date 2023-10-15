@@ -1,3 +1,4 @@
+#SQL
 Structures Query Language is used to manipulate Relational Databases (RDBMS).
 Two type of commands:
 - Data Definition Language

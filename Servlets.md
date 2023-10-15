@@ -1,3 +1,4 @@
+#Concept 
 A **Servlet** (short for "serverlet") is a Java-based program that runs on a web server and handles client requests, typically to generate dynamic web content. Servlets are part of the Java Enterprise Edition (Java EE) platform and are used for building web applications and extending the functionality of web servers.
 
 **Key Characteristics and Functions of Servlets:**

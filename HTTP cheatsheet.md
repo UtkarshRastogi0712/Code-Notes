@@ -1,3 +1,4 @@
+#Generic 
 ### HTTP Methods:
 
 1. **GET**: Used to retrieve data from a resource.
