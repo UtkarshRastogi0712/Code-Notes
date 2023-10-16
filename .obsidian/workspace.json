@@ -11,8 +11,12 @@
             "id": "f70ff9c8d725d94a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "JDBC and SQL.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JDBC and SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JDBC and SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JDBC and SQL.md"
+              }
             }
           },
           {
@@ -161,10 +169,10 @@
   },
   "active": "f70ff9c8d725d94a",
   "lastOpenFiles": [
+    "RestAPI in JS.md",
     "JAVA Spring(boot).md",
     "JDBC and SQL.md",
     "FaceIO.md",
-    "RestAPI in JS.md",
     "Servlets.md",
     "Git cheatsheet.md",
     "Operating System.md",
