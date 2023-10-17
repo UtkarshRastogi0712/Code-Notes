@@ -8,15 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f70ff9c8d725d94a",
+            "id": "55616e946165a3fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JDBC and SQL.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JDBC and SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JDBC and SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JDBC and SQL.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,17 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f70ff9c8d725d94a",
+  "active": "55616e946165a3fd",
   "lastOpenFiles": [
+    "Interview Preparation Guide.md",
+    "Socket Programming.md",
+    "JDBC and SQL.md",
     "RestAPI in JS.md",
     "JAVA Spring(boot).md",
-    "JDBC and SQL.md",
     "FaceIO.md",
     "Servlets.md",
     "Git cheatsheet.md",
     "Operating System.md",
     "HTTP cheatsheet.md",
-    "Interview Preparation Guide.md",
     "RESTful APIs.md",
     "OOPS.md",
     "Data Structures and Algorithms.md",
@@ -194,7 +187,6 @@
     "Fastapi.md",
     "Date and Time in Python.md",
     "Artificial Intelligence.md",
-    "2023-09-24.md",
     "Untitled.canvas",
     "Code-Notes"
   ]
