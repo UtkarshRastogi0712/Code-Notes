@@ -20,7 +20,7 @@ _Client:_
 ```C
 #include <stdio.h> //Standard input output
 #include <stdlib.h> //Standard library functions
-#includes <sys/types.h> //System data types and 
+#include <sys/types.h> //System data types and 
 #include <sys/socket.h> //Socket functionality
 #include <netinet/in.h> //Address information
 ```
@@ -49,7 +49,7 @@ int socket_descriptor = socket(AF_INET, SOCK_STREAM, 0);
 struct sockaddr_in server_address;
 server_address.sin_family = AF_INET;
 server_address.sin_port = htons(8080);
-server_address.sin_addr.s_addr = IN_ADDRANY; //any internet address 
+server_address.sin_addr.s_addr = IN_ADDRANY; //any inverse internet address 
 ```
 
 #### Connect:
@@ -61,6 +61,41 @@ printf("Error");
 }
 ```
 
+#### Bind:
+```C
+//int binding = bind(socket, address_struct, address_struct_size)
+int binding = bind(socket_descriptor, (struct sockaddr*)&serveraddress, sizeof(serveraddress));
+if(connect == -1){
+printf("Error");
+}
+```
+
+#### Listen:
+```C
+// int listening = listen(socket, int backlog_queue_size)
+int listening = listen(socket_descriptor, backlog);
+if(connect == -1){
+printf("Error");
+}
+```
+
+#### Accept:
+```C
+// int connection_socekt = accept(socket, address_client, address_client_size)
+int connection = accept(socket_descriptor, (struct sockaddr*)&clientaddress, sizeof(clientaddress));
+```
+
+#### I/O:
+```C
+recv = (socket_descriptor, buffer*, sizeof(buffer), 0);
+send = (socket_descriptor, buffer*, sizeof(buffer), 0);
+
+recvfrom = (socket_descriptor, buffer*, sizeof(buffer), 0, (struct sockaddr*)&serveraddress, sizeof(serveraddress));
+sendto = (socket_descriptor, buffer*, sizeof(buffer), 0, (struct sockaddr*)&serveraddress, sizeof(serveraddress));
+
+read = (socket_descriptor, buffer*, sizeof(buffer));
+write = (socket_descriptor, buffer*, sizeof(buffer));
+```
 ### Related functions:
 #### Byte Ordering:
 Fixes the byte ordering disparity between host and network. (Little and Big Endian)
