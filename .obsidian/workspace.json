@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Socket Programming.md",
-                "mode": "preview",
+                "file": "JWT Authentication in JS.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Socket Programming.md",
+                "file": "JWT Authentication in JS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Socket Programming.md",
+                "file": "JWT Authentication in JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Socket Programming.md"
+                "file": "JWT Authentication in JS.md"
               }
             }
           },
@@ -168,8 +168,11 @@
   },
   "active": "55616e946165a3fd",
   "lastOpenFiles": [
-    "Socket Programming.md",
+    "MongoDB with mongoose.md",
     "JWT Authentication in JS.md",
+    "OAuth2.md",
+    "OOPS.md",
+    "Socket Programming.md",
     "Interview Preparation Guide.md",
     "JDBC and SQL.md",
     "RestAPI in JS.md",
@@ -180,17 +183,14 @@
     "Operating System.md",
     "HTTP cheatsheet.md",
     "RESTful APIs.md",
-    "OOPS.md",
     "Data Structures and Algorithms.md",
     "Dotenv.md",
-    "MongoDB with mongoose.md",
     "Pydantic Models.md",
     "SQL in FastAPI.md",
     "SQL.md",
     "Regression.md",
     "README.md",
     "Pandas.md",
-    "OAuth2.md",
     "Fastapi Packages.md",
     "Fastapi.md",
     "Date and Time in Python.md",
