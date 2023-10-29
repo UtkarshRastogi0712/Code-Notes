@@ -43,4 +43,4 @@ app.listen(PORT, () => {
 All modules of a [RestAPI](RESTful%20APIs) are built using a Route/Controller/Service/Model architecture in [this way](MongoDB%20with%20mongoose)
 
 User Authentication implementation using [JWT](JWT%20Authentication%20in%20JS).
-Adding _FaceID_ in React using [[FaceIO]] 
+Building a _Front End_ using [[React and Hooks]]

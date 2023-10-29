@@ -14,12 +14,21 @@
               "type": "markdown",
               "state": {
                 "file": "JWT Authentication in JS.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "c16c2447f97354c3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JWT Authentication in JS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JWT Authentication in JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JWT Authentication in JS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,23 +171,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "55616e946165a3fd",
+  "active": "c16c2447f97354c3",
   "lastOpenFiles": [
-    "MongoDB with mongoose.md",
+    "RestAPI in JS.md",
+    "RESTful APIs.md",
+    "React and Hooks.md",
     "JWT Authentication in JS.md",
+    "MongoDB with mongoose.md",
     "OAuth2.md",
     "OOPS.md",
     "Socket Programming.md",
     "Interview Preparation Guide.md",
     "JDBC and SQL.md",
-    "RestAPI in JS.md",
     "JAVA Spring(boot).md",
     "FaceIO.md",
     "Servlets.md",
     "Git cheatsheet.md",
     "Operating System.md",
     "HTTP cheatsheet.md",
-    "RESTful APIs.md",
     "Data Structures and Algorithms.md",
     "Dotenv.md",
     "Pydantic Models.md",
@@ -193,7 +199,6 @@
     "Pandas.md",
     "Fastapi Packages.md",
     "Fastapi.md",
-    "Date and Time in Python.md",
     "Untitled.canvas",
     "Code-Notes"
   ]
