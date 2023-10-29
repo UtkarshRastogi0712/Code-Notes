@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "55616e946165a3fd",
+            "id": "c16c2447f97354c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JWT Authentication in JS.md",
+                "file": "Fetch API.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "c16c2447f97354c3",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fetch API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fetch API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Fetch API.md"
+              }
             }
           },
           {
@@ -174,6 +169,7 @@
   "active": "c16c2447f97354c3",
   "lastOpenFiles": [
     "RestAPI in JS.md",
+    "Fetch API.md",
     "RESTful APIs.md",
     "React and Hooks.md",
     "JWT Authentication in JS.md",
@@ -198,7 +194,6 @@
     "README.md",
     "Pandas.md",
     "Fastapi Packages.md",
-    "Fastapi.md",
     "Untitled.canvas",
     "Code-Notes"
   ]
