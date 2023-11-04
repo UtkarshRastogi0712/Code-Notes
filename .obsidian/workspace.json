@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fetch API.md",
-                "mode": "preview",
+                "file": "Git cheatsheet.md",
+                "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "7fbeed11cb32fbf7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "eb2f6685d0b33e2f",
@@ -85,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fetch API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fetch API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Fetch API.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,34 +172,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c16c2447f97354c3",
+  "active": "7fbeed11cb32fbf7",
   "lastOpenFiles": [
-    "RestAPI in JS.md",
+    "Regex in JS.md",
+    "Git cheatsheet.md",
+    "OOPS.md",
+    "Regression.md",
+    "Fastapi.md",
+    "Pandas.md",
+    "OAuth2.md",
+    "Operating System.md",
     "Fetch API.md",
+    "RestAPI in JS.md",
     "RESTful APIs.md",
     "React and Hooks.md",
     "JWT Authentication in JS.md",
     "MongoDB with mongoose.md",
-    "OAuth2.md",
-    "OOPS.md",
     "Socket Programming.md",
     "Interview Preparation Guide.md",
     "JDBC and SQL.md",
     "JAVA Spring(boot).md",
     "FaceIO.md",
     "Servlets.md",
-    "Git cheatsheet.md",
-    "Operating System.md",
     "HTTP cheatsheet.md",
     "Data Structures and Algorithms.md",
     "Dotenv.md",
     "Pydantic Models.md",
     "SQL in FastAPI.md",
     "SQL.md",
-    "Regression.md",
-    "README.md",
-    "Pandas.md",
-    "Fastapi Packages.md",
     "Untitled.canvas",
     "Code-Notes"
   ]
