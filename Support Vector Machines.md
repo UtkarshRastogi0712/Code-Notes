@@ -45,4 +45,10 @@ Support Vector Machines come into play when the datapoints are impossible to sep
 >Ex: A feature space with one class enclosed inside a unit circle and the other class outside the unit circle in 2 Dimensions (X,Y) can be mapped into a 3 Dimensional space ($X^2$,$Y^2$,$XY$) to be separable.
 
 #### Kernel Functions:
-These are used to approximate 
+These are used to approximate the transformation of lower dimension feature sets into higher dimensions without having to undertake all the matrix transforms linked with it. The main idea is that the basis function to be optimized is dependent on $X^TY$ so instead of finding Higher dimensional features, we can use a kernel to approximate $\phi(X^T)\phi(Y)$.
+
+$$K(X,Y) = <\phi(X),\phi(Y)> = \phi(X^T)\phi(Y) $$
+Examples:
+- _Linear kernel:_ $$\phi(x,y)= (x^Ty) $$
+- _Polynomial kernel:_  $$\phi(x,y)= (x^Ty + R)^D $$
+- _Radial Basis Function:_ $$\phi(x,y) = e^{-\gamma||x-y||^2}$$
