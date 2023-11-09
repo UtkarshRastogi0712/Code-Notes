@@ -45,3 +45,4 @@ All modules of a [RestAPI](RESTful%20APIs) are built using a Route/Controller/Se
 User Authentication implementation using [JWT](JWT%20Authentication%20in%20JS).
 Building a _Front End_ using [[React and Hooks]].
 API calls and fetching data using [[Fetch API]]
+Regex foe file calls and input validation [[Regex in JS]]

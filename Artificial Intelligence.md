@@ -21,7 +21,7 @@ Artificial Intelligence is the field of building models capable of taking decisi
 ##### Supervised Learning:
 - [Linear Regression](Regression)
 - [Logistic Regression](Regression)
-- Support Vector Machine
+- [Support Vector Machine](Support%20Vector%20Machines)
 - Decision Tree
 - Random Forest
 - K Nearest Neighbour
