@@ -82,3 +82,4 @@ ______________
 [Dotenv](Dotenv)
 [Date Time](Date%20and%20Time%20in%20Python.md)
 [Pandas](Pandas.md)
+[Numpy](Numpy)
