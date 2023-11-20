@@ -54,7 +54,7 @@ export default Component;
 ### Hooks:
 React had built in webhooks support for handling events and states in React applications.
 #### useState:
-useState provides a way for React to maintain state or value of variables needed throughout the application. It has a simple declaration where in we destructure the variable holding the state and the updater function while initialising the state. It can then be updated in various ways just by calling the updater function with the new value; Provides consistent state throughout the app. 
+useState provides a way for React to maintain state or value of variables needed throughout the application. It has a simple declaration where in we destructure the variable holding the state and the updater function while initialising the state. It can then be updated in various ways just by calling the updater function with the new value. Provides consistent state throughout the app. Everytime the state is changes, it triggers a re-render;
 ```Javascript
 import {useState} from 'react';
 
@@ -82,5 +82,19 @@ function Component(props) {
 }
 ```
 
+>Note: useState triggers a re-render everytime the state is changed and useEffect is triggered on all re-renders. So if a useEffect hook is tracking changes of a state variable or making changes to a state variable, it effectively creates an infinite loop. A better option to use is useRef.
+
+#### useRef:
+useRef is a react hook that is used to reference values or functions or data across the different states of a react App. It is similar to useState in concept but has a few key differences. It updates synchronously, unlike useState and it does not trigger a re-render if it is updated. It has a parameter, current which holds the current value that it is referencing.
+```Javascript
+import {useRef} from 'react';
+
+function Component(){
+	const count = useRef(0);
+	function trigger(){
+		count.current = count.current + 1;
+	}
+}
+```
 ### Other libraries:
 [[FaceIO]] for face detection as authentication.
