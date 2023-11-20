@@ -98,3 +98,4 @@ function Component(){
 ```
 ### Other libraries:
 [[FaceIO]] for face detection as authentication.
+[[LongPress]] for longpress events.
