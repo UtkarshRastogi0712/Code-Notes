@@ -96,6 +96,24 @@ function Component(){
 	}
 }
 ```
+
+#### useMemo:
+useMemo is used to memoize (cache) data, functions and other blocks of code and wrap them to change or update only with dependencies to prevent unnecessary state reload of slow functions or functions with large overhead.
+```Javascript
+import {useState, useMemo} from 'React';
+
+function Component(){
+	const [state, setState] = useState(0);
+	const doubleState = useMemo(() => {
+		return slowFunction(state);
+	}, [state]);
+
+	const slowFunction = (value) => {
+		//slow memory overhead;
+		return value*2;
+	}
+}
+```
 ### Other libraries:
 [[FaceIO]] for face detection as authentication.
 [[LongPress]] for longpress events.
